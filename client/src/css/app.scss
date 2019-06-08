@@ -1,0 +1,45 @@
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "variables";
+@import "shared/base";
+
+html {
+	min-width: 400px;
+}
+
+body {
+	background: rgba(#000000, 0.9);
+	padding: 0px 20px;
+}
+
+.navbar-brand {
+	font-size: 1.5em;
+	img {
+		display: inline-block;
+		width: 50px;
+	}
+}
+
+#root {
+	h2 {
+		margin-top: 0px;
+	}
+
+	h4 {
+		margin-top: 20px;
+	}
+}
+
+.btn-action {
+  outline: none;
+  border: none;
+}
+
+
+@import "main-window";
+@import "call-window";
+@import "call-modal";
